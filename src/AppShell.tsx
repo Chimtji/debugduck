@@ -1,13 +1,9 @@
 import React from "react";
 import {MantineProvider} from "@mantine/core"
 
-type TProps = {
-  children: React.ReactNode;
-}
-
-const AppShell:React.FC<TProps> = ({children}) => (
-  <MantineProvider>
-    {children}
+const AppShell:React.FC<any> = (props) => (
+  <MantineProvider theme={props.theme} emotionCache={props.emotionCache}>
+    {props.children}
   </MantineProvider>
 )
 
