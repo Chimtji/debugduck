@@ -1,25 +1,26 @@
 {
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ],
   "compilerOptions": {
-    "esModuleInterop": true,
-    "sourceMap": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "noFallthroughCasesInSwitch": true,
-    "outDir": "build",
-    "strictNullChecks": true,
-    "module": "commonjs",
-    "jsx": "react",
-    "target": "es5",
-    "allowJs": false,
-    "moduleResolution": "node",
-    "lib": ["es5", "es6", "es2017", "dom"],
-    "rootDirs": ["src", "stories"],
-    "downlevelIteration": true,
+    "module": "esnext",
+    "lib": ["dom", "esnext"],
+    "importHelpers": true,
     "declaration": true,
-    "skipLibCheck": true
-  },
-  "include": ["src/*.tsx", "src/*.ts"],
-  "exclude": ["node_modules", "build"]
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist/esm",
+    "strict": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "moduleResolution": "node",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+  }
 }
-
