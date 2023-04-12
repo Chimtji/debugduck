@@ -1,2 +1,2 @@
-export {default as AppShellWithChildren} from "./Components/AppShellWithChildren";
-export {default as AppShell} from "./Components/AppShell";
+export {default as AppShellWithChildren} from "./AppShellWithChildren";
+export {default as AppShell} from "./AppShell";

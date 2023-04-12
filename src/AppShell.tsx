@@ -1,7 +1,11 @@
 import React from "react";
 import {MantineProvider} from "@mantine/core"
 
-const AppShell:React.FC<any> = ({children}) => (
+type TProps = {
+  children: React.ReactNode;
+}
+
+const AppShell:React.FC<TProps> = ({children}) => (
   <MantineProvider>
     {children}
   </MantineProvider>

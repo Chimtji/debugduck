@@ -1,7 +1,7 @@
 import React from "react";
 import {Button, MantineProvider} from "@mantine/core"
 
-const AppShellWithChildren:React.FC<any> = () => (
+const AppShellWithChildren:React.FC<{}> = () => (
   <MantineProvider>
     <Button>With Children</Button>
   </MantineProvider>

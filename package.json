@@ -1,6 +1,6 @@
 {
   "name": "debugduck",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A test package for NPM",
   "main": "index.js",
   "scripts": {
