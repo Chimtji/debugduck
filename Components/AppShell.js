@@ -1,3 +1,4 @@
+import React from "react";
 import {MantineProvider} from "@mantine/core"
 
 const AppShell = ({children}) => {
