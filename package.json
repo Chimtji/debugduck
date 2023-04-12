@@ -1,6 +1,6 @@
 {
   "name": "debugduck",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A test package for NPM",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
