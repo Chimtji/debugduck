@@ -1,0 +1,1 @@
+{"version":3,"file":"AppShellRtl.js","sourceRoot":"","sources":["../../src/AppShellRtl.tsx"],"names":[],"mappings":";;;AAAA,wDAA0B;AAC1B,sCAAqD;AACrD,yCAAuC;AAGvC,IAAM,oBAAoB,GAAiB,UAAC,KAAK,IAAK,OAAA,CACpD,uCAAK,GAAG,EAAC,KAAK;IACZ,8BAAC,sBAAe,IAAC,KAAK,EAAE,KAAK,CAAC,KAAK,EAAE,YAAY,EAAE,oBAAQ;QACzD,8BAAC,aAAM,wBAAuB,CACd,CACd,CACP,EANqD,CAMrD,CAAA;AAED,kBAAe,oBAAoB,CAAC"}

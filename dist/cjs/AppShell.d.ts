@@ -1,6 +1,3 @@
 import React from "react";
-type TProps = {
-    children: React.ReactNode;
-};
-declare const AppShell: React.FC<TProps>;
+declare const AppShell: React.FC<any>;
 export default AppShell;
